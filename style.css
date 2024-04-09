@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Images-For-Desktop.jpg");
+}
+
+img {
+    padding-top: 5px;
+    height: 100px;
+    width: 200px;
+    color: crimson;
+    mix-blend-mode:multiply;
+   
+}
+
+.home ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    outline: none;
+}
+.home ul a {
+    margin: 0 20px; 
+    font-size: 20px;
+    margin-top: 0px;
+    color: white;
+    font-family: cursive;
+    outline: none;
+    
+}
+.home ul a {
+    outline: none;
+    outline-style: none;
+}
+h1 {
+    font-size: 100px;
+    font-family: sans-serif;
+    mix-blend-mode: difference;
+    color: white;
+} 
+span {
+    color: orange;
+}
+#su {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.vm  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+p {
+    color: white;
+    font-family: cursive;
+    justify-content: center;
+    padding-left: 200px;
+    font-size: 20px;
+}
+button {
+    width: 10%;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn {
+    padding-left: 250px;
+}
+button:hover {
+    background-color: white;
+}
